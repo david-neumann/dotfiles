@@ -1,11 +1,8 @@
 tap "homebrew/bundle"
 tap "homebrew/services"
-tap "jandedobbeleer/oh-my-posh"
 tap "jesseduffield/lazygit"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
-# Bash Automated Testing System
-brew "bats-core"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream audio and video
@@ -14,6 +11,8 @@ brew "ffmpeg"
 brew "gh"
 # GNU version of the tar archiving utility
 brew "gnu-tar"
+# Mac App Store command-line interface
+brew "mas"
 # Platform built on V8 to build network applications
 brew "node@16"
 # Ambitious Vim-fork focused on extensibility and agility
@@ -34,8 +33,6 @@ brew "ruby"
 brew "starship"
 # Fish-like fast/unobtrusive autosuggestions for zsh
 brew "zsh-autosuggestions"
-# Prompt theme engine for any shell
-brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 # A simple terminal UI for git commands, written in Go
 brew "jesseduffield/lazygit/lazygit"
 # Command-line interface for 1Password
