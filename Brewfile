@@ -1,43 +1,51 @@
+# Tap Homebrew
 tap "homebrew/bundle"
+tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
-# GNU File, Shell, and Text utilities
-brew "coreutils"
-# Simple, fast and user-friendly alternative to find
-brew "fd"
-# Play, record, convert, and stream audio and video
-brew "ffmpeg"
-# GitHub command-line tool
-brew "gh"
-# GNU version of the tar archiving utility
-brew "gnu-tar"
-# Mac App Store command-line interface
-brew "mas"
-# Platform built on V8 to build network applications
-brew "node@16"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
-# Manage multiple Node.js versions
-brew "nvm"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
-# Shell command parallelization utility
-brew "parallel"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
-# Search tool like grep and The Silver Searcher
-brew "ripgrep"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
-# Cross-shell prompt for astronauts
-brew "starship"
-# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-autosuggestions"
-# A simple terminal UI for git commands, written in Go
-brew "jesseduffield/lazygit/lazygit"
-# Command-line interface for 1Password
+
+# Apps
+cask "1password"
 cask "1password-cli"
-# Modern programming language in the Lisp/Scheme family
+cask "arc"
+cask "discord"
+cask "firefox-developer-edition"
 cask "racket"
-# GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "raycast"
+cask "spotify"
 cask "wezterm"
+
+# System
+brew "coreutils"
+brew "fd"
+brew "wget"
+brew "git"
+brew "ffmpeg"
+brew "gh"
+brew "gnu-tar"
+brew "imagemagick"
+brew "mas"
+brew "neovim"
+brew "nvm"
+brew "openssl"
+brew "parallel"
+brew "ripgrep"
+brew "starship"
+brew "zsh-autosuggestions"
+brew "jesseduffield/lazygit/lazygit"
+
+# Languages
+brew "node"
+brew "python@3.11"
+brew "ruby"
+
+# Other
+brew "exercism"
+
+# App Store
+mas "1Password for Safari", id: 1569813296
+mas "Affinity Designer", id: 824171161
+mas "Interactful", id: 1528095640
+mas "Sip", id: 507257563
+mas "Speedtest", id: 1153157709
+mas "Xcode", id: 497799835
