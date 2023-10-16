@@ -15,7 +15,7 @@ config.font = wezterm.font("MonoLisa")
 config.font_size = 16
 
 -- For example, changing the color scheme:
-config.color_scheme = "Catppuccin Macchiato"
+config.color_scheme = "Catppuccin Frappe"
 
 -- Pane selection
 config.keys = {
