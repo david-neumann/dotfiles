@@ -43,6 +43,10 @@ brew "ruby"
 # Other
 brew "exercism"
 
+# Fonts
+cask "font-monocraft"
+cask "font-monaspace"
+
 # App Store
 mas "1Password for Safari", id: 1569813296
 mas "Affinity Designer", id: 824171161
