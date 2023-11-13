@@ -11,11 +11,11 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
-config.font = wezterm.font("MonoLisa")
+config.font = wezterm.font("Monaspace Argon Var", { weight = "Regular" })
 config.font_size = 16
 
 -- For example, changing the color scheme:
-config.color_scheme = "Catppuccin Frappe"
+config.color_scheme = "Catppuccin Macchiato"
 
 -- Pane selection
 config.keys = {

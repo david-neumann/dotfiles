@@ -10,7 +10,6 @@ sketchybar --bar \
     margin=0 \
     padding_left=24 \
     padding_right=24 \
-    sticky=true \
     y_offset=4
 
 sketchybar --default \
