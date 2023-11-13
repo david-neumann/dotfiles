@@ -13,6 +13,8 @@ end
 -- This is where you actually apply your config choices
 config.font = wezterm.font("Monaspace Argon Var", { weight = "Regular" })
 config.font_size = 16
+config.font_shaper = "Harfbuzz"
+config.harfbuzz_features = { "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "calt", "dlig" }
 
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Macchiato"
