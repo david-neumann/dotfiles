@@ -17,6 +17,7 @@ plugins=(
   gnu-utils
   macos
   ripgrep
+  golang
   rust
   starship
 )

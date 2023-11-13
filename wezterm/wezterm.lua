@@ -19,7 +19,7 @@ config.font_rules = {
 	{
 		intensity = "Normal",
 		italic = true,
-		font = wezterm.font("Monaspace Radon Var", { weight = "Bold" }),
+		font = wezterm.font("Monaspace Radon Var"),
 	},
 }
 

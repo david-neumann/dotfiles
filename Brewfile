@@ -1,5 +1,6 @@
 # Tap Homebrew
 tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/services"
 tap "jesseduffield/lazygit"
@@ -7,7 +8,6 @@ tap "jesseduffield/lazygit"
 # Apps
 cask "1password"
 cask "1password-cli"
-cask "arc"
 cask "anki"
 cask "discord"
 cask "firefox-developer-edition"
