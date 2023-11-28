@@ -1,29 +1,3 @@
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-  1password
-  bun
-  colored-man-pages
-  vi-mode
-  dotenv
-  fd
-  gnu-utils
-  macos
-  ripgrep
-  golang
-  rust
-  starship
-)
-
-source $ZSH/oh-my-zsh.sh
-
 # Set Neovim to default editor
 export EDITOR='nvim'
 
@@ -42,13 +16,23 @@ bindkey -v
 VI_MODE_RESET_PROMPT_ON_MODE_CHANGE=true
 VI_MODE_SET_CURSOR=true
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# ALIASES
+# Git commands
+alias gs="git status"
+alias ga="git add -A"
+alias gc="git commit -m"
+alias gp="git push"
+alias gpl="git pull"
+
+# Shorthands
+alias la="ls -a"
+alias ll="la -l"
+alias nv="nvim ."
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Add Starship
+eval "$(starship init zsh)"
+
+# bun completions
+[ -s "/home/david/.bun/_bun" ] && source "/home/david/.bun/_bun"
