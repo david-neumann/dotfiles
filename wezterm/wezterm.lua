@@ -11,16 +11,16 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
-config.font = wezterm.font("Monaspace Argon Var")
+config.font = wezterm.font("MonoLisa", { weight = 300 })
 config.font_size = 16
 config.font_shaper = "Harfbuzz"
 config.harfbuzz_features = { "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "ss07", "ss08", "calt", "dlig" }
-config.font_rules = {
-	{
-		italic = true,
-		font = wezterm.font("Monaspace Radon Var"),
-	},
-}
+-- config.font_rules = {
+-- 	{
+-- 		italic = true,
+-- 		font = wezterm.font("Monaspace Radon Var"),
+-- 	},
+-- }
 
 -- For example, changing the color scheme:
 config.color_scheme = "Catppuccin Macchiato"
