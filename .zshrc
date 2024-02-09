@@ -28,6 +28,17 @@ alias gpl="git pull"
 alias la="ls -a"
 alias ll="la -l"
 alias nv="nvim ."
+alias dots="cd ~/.dotfiles/"
+alias home="cd ~/"
+
+# Dev commands
+alias air="~/.air"
+
+# System commands
+alias sleep="systemctl suspend"
+alias poweroff="systemctl poweroff"
+alias systemupdate="sudo pacman -Sy archlinux-keyring && sudo pacman -Syu"
+alias volume="pactl set-sink-volume @DEFAULT_SINK@"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
