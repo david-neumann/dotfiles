@@ -47,3 +47,9 @@ eval "$(starship init zsh)"
 
 # bun completions
 [ -s "/home/david/.bun/_bun" ] && source "/home/david/.bun/_bun"
+
+# GO
+export GOBIN=$HOME/go/bin/
+export PATH=$PATH:$GOBIN
+# Protobuf
+export PATH="$PATH:/usr/local/protobuf/bin"
